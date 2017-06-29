@@ -1,0 +1,9 @@
+%h1 Генератор паролей
+
+%p Вводите слова для создания пароля
+.error
+.container
+  = text_field_tag :pw_list, nil, placeholder: 'слово для пароля'
+  %a.dib.green_btn.js__generate Сгенерировать
+.list_of_words
+.list_passwords
